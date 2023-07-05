@@ -3,34 +3,24 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
-
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
-
 <div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="/assets/rorlab_emblem_white.png" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
-## Tech Stack
+RORLAB은 2011년 11월 11일 첫 모임을 시작하였습니다. 레일스 공식 가이드 문서를 중심으로 격주로 무료 오프라인 강좌를 진행하였으며 레일스를 이용한 웹 서비스 개발을 위한 다양한 프로젝트를 진행하여 왔습니다. 그러나 최근 몇년간 여러가지 사정으로 활동이 다소 소강 상태였으나 2023년 7월을 기점으로 재개를 위한 준비를 하고 있습니다.
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+<div>
+  <img src="/assets/RORLAB-panel.jpeg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+</div>
 
-## Features
+## 온라인 스터디북
 
-Here are certain features of this site.
+- [초보자를 위한 레일스 가이드북, a.k.a 초레가7](https://www.railsguidebook.kr)
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+## Youtube 채널
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+- [RORLAB Youtube 채널](https://www.youtube.com/@rorlabkr)
+
+## Twitter
+
+- [RORLAB Twitter](https://twitter.com/rorlab)
