@@ -13,7 +13,7 @@ export const SITE: Site = {
 export const LOCALE = ["ko"]; // set to [] to use the environment default
 
 export const LOGO_IMAGE = {
-  enable: false,
+  enable: true,
   svg: true,
   width: 216,
   height: 46,
@@ -36,19 +36,19 @@ export const SOCIALS: SocialObjects = [
     name: "Mail",
     href: "mailto:rorlab@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
+    active: true,
   },
   {
     name: "Twitter",
     href: "https://twitter.com/rorlab",
     linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    active: true,
   },
   {
     name: "YouTube",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on YouTube`,
-    active: false,
+    active: true,
   },
   {
     name: "CodePen",
