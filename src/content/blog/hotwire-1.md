@@ -4,7 +4,7 @@ pubDatetime: 2023-07-05T15:57:52+09:00
 title: Hotwire (1)
 postSlug: hotwier-1
 featured: true
-ogImage: https://avatars.githubusercontent.com/u/75388917?s=200&v=4
+ogImage: https://www.driftingruby.com/episodes/hotwire/download_image.png
 tags:
   - release
 description: Hotwire는 웹 애플리케이션을 구축하기 위한 새로운 접근 방식을 제공합니다. 이 접근 방식은 더 나은 사용자 경험을 제공하면서도, 더 적은 코드를 작성하고, 더 빠르게 개발할 수 있도록 도와줍니다.
