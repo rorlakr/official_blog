@@ -1,11 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://rorlakr.github.io",
+  website: "https://www.rorlab.kr",
   author: "Lucius Choi",
   desc: "RORLAB Official Blog",
   title: "RORLAB2",
-  ogImage: "/assets/rorlab_emblem_white.png",
+  ogImage: "https://www.rorlab.kr/assets/rorlab_emblem_white.png",
   lightAndDarkMode: true,
   postPerPage: 10,
 };
