@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "RORLAB2",
   ogImage: "rorlab_emblem_white.png",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 10,
 };
 
 export const LOCALE = ["ko"]; // set to [] to use the environment default
