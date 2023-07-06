@@ -4,9 +4,11 @@ pubDatetime: 2023-07-05T15:57:52+09:00
 title: Hotwire (1)
 postSlug: hotwier-1
 featured: true
+draft: true
 ogImage: https://www.driftingruby.com/episodes/hotwire/download_image.png
 tags:
-  - release
+  - article
+  - hotwire
 description: Hotwire는 웹 애플리케이션을 구축하기 위한 새로운 접근 방식을 제공합니다. 이 접근 방식은 더 나은 사용자 경험을 제공하면서도, 더 적은 코드를 작성하고, 더 빠르게 개발할 수 있도록 도와줍니다.
 ---
 
@@ -83,7 +85,7 @@ $ rails g controller pages home about contact
 
 이 한 줄의 명령어로 레일스는 `pages` 컨트롤러와 `home`, `about`, `contact` 액션과 뷰 파일들을 생성해 줍니다.
 
-이제 ` config/routes.rb`` 파일을 열고 루트 라우트를 pages#home `으로 변경합니다.
+이제 `config/routes.rb` 파일을 열고 루트 라우트를 `pages#home`으로 변경합니다.
 
 ```ruby
 Rails.application.routes.draw do
