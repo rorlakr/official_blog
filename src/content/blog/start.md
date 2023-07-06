@@ -1,7 +1,7 @@
 ---
 title: RORLAB 공식 블로그를 시작합니다
 author: Lucius Choi
-pubDatetime: 2023-07-05T00:00:00+09:00
+pubDatetime: 2023-07-05T09:00:00+09:00
 postSlug: start-blog
 featured: true
 draft: false
