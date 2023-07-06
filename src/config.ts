@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Lucius Choi",
   desc: "RORLAB Official Blog",
   title: "RORLAB2",
-  ogImage: "https://www.rorlab.kr/assets/rorlab_emblem_white.png",
+  ogImage: "https://www.rorlab.kr/assets/rorlab_open_graphic_white.png",
   lightAndDarkMode: true,
   postPerPage: 10,
 };
