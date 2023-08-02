@@ -1,7 +1,7 @@
 ---
 title: favicon.ico 요청 자동 응답하기 방지하기
 author: Lucius Choi
-pubDatetime: 2023-03-03T09:00:00+09:00
+pubDatetime: 2023-08-03T09:00:00+09:00
 postSlug: automatic_favicon_request
 featured: true
 draft: false
