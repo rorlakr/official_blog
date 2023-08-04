@@ -52,7 +52,7 @@ end
 $ bin/rails generate controller Articles index --skip-routes
 ```
 
-## Hellow, Rails! 출력하기
+## Hello, Rails! 출력하기
 
 ```html
 <h1>Hello, Rails!</h1>
