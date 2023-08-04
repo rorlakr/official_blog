@@ -160,9 +160,3 @@ end
 ```
 
 이번 글에서는 레일스 7 프로젝트를 생성한 후 twailwindcss를 추가하고 devise를 이용하여 회원가입, 로그인, 로그아웃을 구현해 보았습니다. 또한 간단한 게시판을 구현해 보았습니다.
-
-<style is:global>
-  code {
-    font-family: monospace !important;
-  }
-</style>
