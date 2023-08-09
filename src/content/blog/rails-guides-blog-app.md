@@ -40,6 +40,8 @@ $ bin/rails server
 
 ## 라우트 정의하기
 
+✏️ config/routes.rb
+
 ```ruby
 Rails.application.routes.draw do
   get "/articles", to: "articles#index"
@@ -53,6 +55,8 @@ $ bin/rails generate controller Articles index --skip-routes
 ```
 
 ## Hello, Rails! 출력하기
+
+✏️ app/views/articles/index.html.erb
 
 ```html
 <h1>Hello, Rails!</h1>
