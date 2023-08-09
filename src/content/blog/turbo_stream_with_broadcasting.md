@@ -21,3 +21,19 @@ Comment 모델 클래스에 after_create_commit 콜백시에 action cable로 브
 결과는 바람직한 것이지만 zoom 온라인 강좌를 마친 후 검색한 결과, 레일스 7이 발표된 2021년에 이미 이러한 문제가 버그로 제기되어 중복 표시되는 메시지의 경우는 추가되는 ID의 메시지가 업데이트되도록 개선이 된 것을 알지 못했던 것이었습니다.
 
 DHH가 2021년 6월 일 이 문제를 fix한 PR을 머지했던 것으로 확인했습니다. 관련 글에 대한 링크입니다. https://github.com/hotwired/turbo/pull/240
+
+CommentsController#create ► create.turbo_stream.erb
+
+```erb
+<%= turbo_stream.append :comments, @comment %>
+```
+
+Comment model
+
+```ruby
+class Comment < ApplicationRecord
+  belongs_to :post
+
+  broadcasts_to ->(comment) { :comments }
+end
+```
